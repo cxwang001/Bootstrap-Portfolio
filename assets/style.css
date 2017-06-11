@@ -1,6 +1,10 @@
+/** { 
+  border: 1px solid red;
+}
+*/
 body {
   /* Margin bottom by footer height */
-  background-image: url("../images/white-ash.jpeg");
+  background-image: url("../images/ep_naturalwhite.png");
   margin-bottom: 60px;
   height:100%;
   width:100%;
@@ -17,11 +21,25 @@ h2{
 	font-weight: bold;
 }
 
+/*.b1{
+  border: 3px solid red;
+  height: 300px;
+}
+
+.sb1{
+  border: 3px solid green;
+}
+
+.sb2{
+  border: 3px solid green;
+}<---test----->*/
+
+
 .name{
 	background-color: #4aaaa5;
   	font-size: 24px;
   	column-width: 200px;
-  	height: 53px;
+  	height: 51px;
   	color: white;
   	text-align: center;
   	position: absolute;
@@ -41,6 +59,7 @@ h2{
 
 .header{
   margin-top: 20px;
+
 }
 
 .panel{
@@ -67,8 +86,10 @@ margin-top: 40px;
   padding-top: 15px;
   text-align: center;
 }
-
-
+.btn{
+  background-color: #4aaaa5;
+  color:#ffffff;
+}
 
 
 
